@@ -21,11 +21,11 @@ team_data <- tibble(
            "member 3", "member 4"),
   github_username = c("mcgregors-garden", "username 1", "username 2", 
                       "username 3", "username 4"), 
-  colour = c("powderblue", "colour 1", "colour 2", 
-             "colour 3", "colour 4"),
+  colour = c("powderblue", "red", "red", 
+             "blue", "blue"),
   hobby = c("Hopping", "hobby 1", "hobby 2", 
             "hobby 3", "hobby 4"),
-  favourite_number = c(2, NA, NA, NA, NA)
+  favourite_number = c(2, 4, 6, 8, 10)
   )
 
 team_data
@@ -46,5 +46,5 @@ p1 <- ggplot(data = team_data,
 p1
 ```
 
-*Remove this text (including the stars), and add your answer for Exercise 18 here.*
+The bar chart shows the usernames on the x-axis and favourite numbers on the y-axis. The bar which goes up to the user's favourite number is in the user's favourite colour.
 
